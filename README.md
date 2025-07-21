@@ -1,4 +1,4 @@
-# ODIN 4DEV ICP (odin4dev.fun)
+# ODIN 4DEV ICP ([odin4dev](https://odin4dev.fun))
 ---
 
 ## 🚀 Features
