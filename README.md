@@ -12,6 +12,16 @@
 
 ## 📦 Installation
 
+
+### Required Libraries
+Make sure you install the following dependencies:
+
+```bash
+npm install @dfinity/agent @dfinity/candid
+```
+
+To use the SDK directly:
+
 ```bash
 npm install icp-odin-sdk
 # or
