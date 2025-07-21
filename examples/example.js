@@ -18,7 +18,7 @@ const run = async () => {
       actor,
       tokenid: 'btc-token-id',
       typeofTrade: 'buy', // buy / sell
-      amount: { btc: BigInt(100_000) },
+      amount: { btc: BigInt(100000) },
     });
     console.log('Trade result:', tradeResult);
 
@@ -36,7 +36,7 @@ const run = async () => {
       actor,
       tokenid_from: 'btc-token-id',
       tokenid_to: 'ckbtc-token-id',
-      amount_from: BigInt(50_000),
+      amount_from: BigInt(50000),
     });
     console.log('Swap result:', swapResult);
   } catch (e) {
