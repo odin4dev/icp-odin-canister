@@ -23,9 +23,9 @@ npm install @dfinity/agent @dfinity/candid
 To use the SDK directly:
 
 ```bash
-npm install icp-odin-sdk
+npm install icp-odin-canister
 # or
-pnpm add icp-odin-sdk
+pnpm add icp-odin-canister
 ```
 
 > You can also clone this repo directly if you are working with local agents or development mode.
@@ -41,7 +41,7 @@ import {
   tokenTrade,
   getBalance,
   tokenSwap,
-} from 'icp-odin-sdk';
+} from '';
 
 const canisterId = 'cpbhu-5iaaa-aaaad-aalta-cai';
 const agent = new HttpAgent({ host: 'https://icp0.io' });
@@ -81,7 +81,7 @@ const agent = new HttpAgent({ host: 'https://icp0.io' });
 ## 📁 Project Structure
 
 ```bash
-icp-odin-sdk/
+icp-odin-canister/
 ├── src/
 │   ├── idlFactory.js
 │   └── methods/
